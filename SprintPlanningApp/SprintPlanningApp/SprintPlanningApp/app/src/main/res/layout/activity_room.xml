@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E3F2FD"
+    tools:context=".RoomActivity">
+
+    <TextView
+        android:id="@+id/roomCodeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Story name: "
+        android:textSize="18sp"
+        android:textColor="#1B5E20"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textSize="48sp"
+        android:textColor="#D32F2F"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/roomCodeTextView"
+        android:layout_marginBottom="20dp"/>
+
+    <GridLayout
+        android:id="@+id/participantsGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerTextView"
+        android:layout_marginTop="20dp"
+        android:columnCount="4"
+        android:padding="16dp"
+        android:layout_gravity="center">
+    </GridLayout>
+
+    <GridView
+        android:id="@+id/votingGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/participantsGridLayout"
+        android:layout_marginTop="20dp"
+        android:numColumns="3"
+        android:horizontalSpacing="12dp"
+        android:verticalSpacing="12dp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/startTimerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Timer"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D32F2F"
+        android:layout_below="@id/votingGridView"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/finishRoundButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish round"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D32F2F"
+        android:layout_below="@id/startTimerButton"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

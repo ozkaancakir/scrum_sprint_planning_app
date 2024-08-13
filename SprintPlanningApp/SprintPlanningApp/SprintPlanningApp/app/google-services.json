@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "110882332993",
+    "project_id": "sprintplanningapp",
+    "storage_bucket": "sprintplanningapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110882332993:android:773f206132b018a77241c0",
+        "android_client_info": {
+          "package_name": "com.ozkancakir.sprintplanningapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJLLs3V6JpIW16_vs7dkDcRvp1eVsikCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

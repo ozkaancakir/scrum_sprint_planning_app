@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#E3F2FD"
+    tools:context=".EnterStoriesActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a Story"
+        android:textSize="20sp"
+        android:textColor="#1B5E20"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/storiesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Put your stories text here. Each line contains a new story."
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/saveAndAddNewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save and Add New"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#388E3C"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/saveAndCloseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save and Close"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D32F2F"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"/>
+</LinearLayout>
